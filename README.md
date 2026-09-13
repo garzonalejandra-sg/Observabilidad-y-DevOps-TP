@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto corresponde al desarrollo de un sistema básico de gestión de productos realizado en Python. El proyecto tiene como finalidad aplicar conceptos de Programación Orientada a Objetos (POO), estructuras de datos, manejo de errores, logging, observabilidad y principios básicos de DevOps.
+Este proyecto corresponde al desarrollo de un sistema básico de gestión de productos con registros de eventos dentro del programa realizado en Python. El proyecto tiene como finalidad aplicar conceptos de Programación Orientada a Objetos (POO), estructuras de datos, manejo de errores, logging, observabilidad y principios básicos de DevOps.
 
 El sistema permite realizar operaciones CRUD sobre productos, es decir, crear, consultar, actualizar y eliminar registros. Además, cuenta con un sistema de registro de eventos mediante el módulo `logging` de Python, con el cual se almacenan las principales acciones realizadas durante la ejecución del programa.
 
