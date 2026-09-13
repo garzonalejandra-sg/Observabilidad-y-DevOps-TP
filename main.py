@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 # ===========================================================
-# CONFIGURACIÓN DEL LOGGER
+# CONFIGURACIÓN DEL LOGGER objetos instanciadores de los parametros elegidos para nuestros loggers
 # ===========================================================
 
 # Obtiene la carpeta donde está ubicado este archivo Python
@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 # ===========================================================
-# CLASE PRODUCTO
+# CLASE PRODUCTO donde instanciamos el contrsuctor de las caracteristicas esperadas de los productos
 # ===========================================================
 
 class Producto:
@@ -39,7 +39,7 @@ class Producto:
 
 
 # ===========================================================
-# CLASE TIENDA
+# CLASE TIENDA donde definimos el constructor del almacenamiento de los productos y las posibles interacciones del usuario en CRUD
 # ===========================================================
 
 class Tienda:
@@ -51,7 +51,7 @@ class Tienda:
         logger.info("Sistema iniciado.")
 
     # --------------------------------------------------------
-    # CREATE - Crear producto
+    # CREATE - metodo para crear un producto segun las caracteristicas y el almacenamiento ya definido
     # --------------------------------------------------------
 
     def crear_producto(self):
@@ -92,7 +92,7 @@ class Tienda:
             print("\nError: el precio debe ser un número.\n")
 
     # --------------------------------------------------------
-    # READ - Mostrar productos
+    # READ - Mostrar producto 
     # --------------------------------------------------------
 
     def mostrar_productos(self):
